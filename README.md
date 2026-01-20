@@ -1,32 +1,46 @@
-# Java Programming Lab Manual
+# ☕ Java Programming Lab Manual
 ### Netaji Subhas University, Jamshedpur
 
-This repository contains solutions for the Java Programming Lab Manual.
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/NSU-Java-Lab-Solutions?style=for-the-badge&color=blue)
 
-## List of Programs
+> **Repository Description:** > This repository contains the complete collection of solutions for the Java Programming Lab Manual. Each program is optimized, commented, and tested to demonstrate core Java concepts ranging from basic algorithms to advanced OOPs, File I/O, and Exception Handling.
 
-1. **Palindrome Check:** `PalindromeCheck.java`
-2. **Matrix Transpose & Symmetry:** `MatrixSymmetry.java`
-3. **Overloading vs Overriding:** `OverloadingOverridingDemo.java`
-4. **Dynamic Method Dispatch:** `DynamicDispatchDemo.java`
-5. **Constructor Chaining:** `ConstructorChainingDemo.java`
-6. **String Anagram Check:** `AnagramCheck.java`
-7. **Prime Numbers in Array:** `PrimeArraySum.java`
-8. **File Character Count:** `FileStats.java`
-9. **Custom Exception:** `CustomExceptionDemo.java`
-10. **Command-Line Calculator:** `CommandLineCalculator.java`
-11. **Interface Implementation:** `InterfaceDemo.java`
-12. **Abstract Class (Bank):** `AbstractBankDemo.java`
-13. **Multiple Interfaces:** `MultipleInterfaceDemo.java`
-14. **Packages (Geometry):** Run `TestPackage.java` (Class is in `geometry/Circle.java`)
-15. **Super Keyword:** `SuperKeywordDemo.java`
-16. **File Copy (Manual):** `FileCopyManual.java`
-17. **Object Serialization:** `SerializationDemo.java`
-18. **Final Keyword:** `FinalDemo.java`
-19. **String Compression:** `StringCompression.java`
-20. **Modular Calculator:** `ModularCalculator.java`
+---
 
-## How to Run
-Compile any file using:
+## 📂 Index of Programs
+
+| Q# | Problem Statement | Solution File | Concepts Covered |
+|:--:|:---|:---|:---|
+| 1 | **Palindrome Check** (No built-in reverse) | [`PalindromeCheck.java`](./PalindromeCheck.java) | String Manipulation, Two-Pointer |
+| 2 | **Matrix Transpose & Symmetry** | [`MatrixSymmetry.java`](./MatrixSymmetry.java) | 2D Arrays, Logic Building |
+| 3 | **Overloading & Overriding** | [`OverloadingOverridingDemo.java`](./OverloadingOverridingDemo.java) | Polymorphism |
+| 4 | **Dynamic Method Dispatch** | [`DynamicDispatchDemo.java`](./DynamicDispatchDemo.java) | Inheritance, Runtime Polymorphism |
+| 5 | **Constructor Chaining** | [`ConstructorChainingDemo.java`](./ConstructorChainingDemo.java) | `this()`, `super()` |
+| 6 | **String Anagram Check** | [`AnagramCheck.java`](./AnagramCheck.java) | Arrays, Sorting, String API |
+| 7 | **Prime Numbers in Array** | [`PrimeArraySum.java`](./PrimeArraySum.java) | Arrays, Math Logic |
+| 8 | **File Character Count** | [`FileStats.java`](./FileStats.java) | File I/O, Scanners |
+| 9 | **Custom Exception (InvalidAge)** | [`CustomExceptionDemo.java`](./CustomExceptionDemo.java) | Exception Handling, `throw` |
+| 10 | **Command-Line Calculator** | [`CommandLineCalculator.java`](./CommandLineCalculator.java) | CLI Args, Parsing |
+| 11 | **Interface Implementation** | [`InterfaceDemo.java`](./InterfaceDemo.java) | Interfaces, Abstraction |
+| 12 | **Abstract Class (Bank)** | [`AbstractBankDemo.java`](./AbstractBankDemo.java) | Abstract Classes, Inheritance |
+| 13 | **Multiple Interfaces** | [`MultipleInterfaceDemo.java`](./MultipleInterfaceDemo.java) | Ambiguity Resolution |
+| 14 | **Package Creation** | [`TestPackage.java`](./TestPackage.java) | User-defined Packages |
+| 15 | **Super Keyword Usage** | [`SuperKeywordDemo.java`](./SuperKeywordDemo.java) | `super` keyword |
+| 16 | **File Copy (Manual)** | [`FileCopyManual.java`](./FileCopyManual.java) | FileStreams, Byte Handling |
+| 17 | **Object Serialization** | [`SerializationDemo.java`](./SerializationDemo.java) | `Serializable`, Object Streams |
+| 18 | **Final Keyword Demo** | [`FinalDemo.java`](./FinalDemo.java) | Constants, Immutability |
+| 19 | **String Compression** | [`StringCompression.java`](./StringCompression.java) | `StringBuilder`, Algorithms |
+| 20 | **Modular Calculator** | [`ModularCalculator.java`](./ModularCalculator.java) | Methods, Switch-Case |
+
+---
+
+## 🚀 How to Run
+
+### Standard Programs
+For most files (Q1–Q13, Q15–Q20), open your terminal in the directory and run:
+
+```bash
 javac Filename.java
 java Filename
