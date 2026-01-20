@@ -3,7 +3,7 @@
 
 ![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/NSU-Java-Lab-Solutions?style=for-the-badge&color=blue)
+![Repo Size](https://img.shields.io/github/repo-size/kunalSingh026/JAVA_LAB-MANUAL-SOLUTIONS?style=for-the-badge&color=blue)
 
 > **Repository Description:** > This repository contains the complete collection of solutions for the Java Programming Lab Manual. Each program is optimized, commented, and tested to demonstrate core Java concepts ranging from basic algorithms to advanced OOPs, File I/O, and Exception Handling.
 
@@ -44,3 +44,16 @@ For most files (Q1–Q13, Q15–Q20), open your terminal in the directory and ru
 ```bash
 javac Filename.java
 java Filename
+
+
+# Compile the package first
+javac geometry/Circle.java
+
+# Compile and run the main program
+javac TestPackage.java
+java TestPackage
+
+javac CommandLineCalculator.java
+# Example Usage:
+java CommandLineCalculator 10 + 20
+java CommandLineCalculator 5 "*" 5
