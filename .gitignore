@@ -1,0 +1,8 @@
+# Ignore compiled class files
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.ctxt
+.DS_Store
+.vscode/
